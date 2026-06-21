@@ -235,7 +235,7 @@ License
 This project is licensed under the MIT License – see the LICENSE file for details.
 Contact & Credits
 
-    Maintainer: [Your Name / GitHub Handle]
+    Maintainer: Rian Eka Saputra
 
     Inspired by QoS analysis for VPN performance evaluation on resource‑constrained devices.
 
