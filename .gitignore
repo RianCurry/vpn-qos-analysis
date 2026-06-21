@@ -1,0 +1,36 @@
+cat > .gitignore << 'EOF'
+# Hasil pengujian (besar)
+results/
+logs/
+*.csv
+*.json
+*.txt
+
+# Sertifikat dan konfigurasi VPN (sensitif)
+ca.crt
+client1.crt
+client1.key
+client.ovpn
+*.pem
+*.key
+*.crt
+*.ovpn
+
+# File sementara dan backup
+*.tmp
+*.bak
+*~
+*.swp
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# File stop flag
+stop.flag
+
+# Environment (jika ada)
+.env
+config.env  # Hapus baris ini jika config.env tidak berisi rahasia
+EOF
