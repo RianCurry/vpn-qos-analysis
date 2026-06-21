@@ -1,0 +1,25 @@
+client
+dev tun
+proto udp
+cipher AES-256-GCM
+data-ciphers AES-256-GCM:AES-128-GCM
+auth SHA256
+
+remote 192.168.11.106 1194 udp
+
+tun-mtu 1400
+mssfix 1360
+
+resolv-retry infinite
+nobind
+
+persist-key
+persist-tun
+
+remote-cert-tls server
+
+ca ca.crt
+cert client1.crt
+key client1.key
+
+verb 3
