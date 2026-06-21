@@ -33,4 +33,8 @@ stop.flag
 # Environment (jika ada)
 .env
 config.env  # Hapus baris ini jika config.env tidak berisi rahasia
-EOF
+EOFresults/
+logs/
+*.csv
+*.json
+*.txt
